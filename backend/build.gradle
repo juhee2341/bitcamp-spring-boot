@@ -13,9 +13,6 @@ repositories {
 }
 
 dependencies {
-	implementation 'org.springframework.boot:spring-boot-starter'
-	testImplementation 'org.springframework.boot:spring-boot-starter-test'
-	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	implementation group: 'org.springframework.boot', name: 'spring-boot-starter-webflux', version: '2.4.5'
 	implementation group: 'org.springframework.boot', name: 'spring-boot-starter-web', version: '2.4.4'
 	implementation group: 'org.springframework.boot', name: 'spring-boot-starter-tomcat', version: '2.4.4'
@@ -31,6 +28,9 @@ dependencies {
 	implementation group: 'javax.validation', name: 'validation-api', version: '2.0.1.Final'
 	implementation group: 'io.jsonwebtoken', name: 'jjwt', version: '0.9.1'
 	implementation group: 'org.modelmapper', name: 'modelmapper', version: '2.4.2'
+	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+
+
 }
 
 test {
