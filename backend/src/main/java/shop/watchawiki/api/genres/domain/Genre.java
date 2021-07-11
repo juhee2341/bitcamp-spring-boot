@@ -1,4 +1,4 @@
-package shop.watchawiki.api.Genres.domain;
+package shop.watchawiki.api.genres.domain;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
